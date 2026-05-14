@@ -3,8 +3,8 @@
 // Petunjuk: gunakan type alias atau interface untuk mendefinisikan struktur data ini
 // Pastikan tipe data untuk setiap properti sudah sesuai dengan kebutuhan
 
-// type BookManagement = {
-//   title: string;
-//   author: string;
-//   publicationYear: number;
-// };
+type BookManagement = {
+  title: string | null;
+  author: string | null;
+  publicationYear: number;
+};
