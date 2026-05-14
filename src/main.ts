@@ -45,7 +45,7 @@ function addBook(book: BookManagement): void {
     return;
   }
   bookCollection.push(book);
-  console.log(`Buku ${book.title} Berhasil ditambahkan`);
+  console.log(`Buku "${book.title}" Berhasil ditambahkan`);
 }
 
 function listBooks(): void {
@@ -90,7 +90,7 @@ function searchBook(title?: string): void {
 function runApp(): void {
   let isRunning = true;
   while (isRunning) {
-    console.log('Book Management');
+    console.log('=== Book Management ===');
     console.log('1.Tambahkan Buku');
     console.log('2.Lihat Semua Buku');
     console.log('3.Cari Buku');
